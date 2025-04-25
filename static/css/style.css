@@ -3,7 +3,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+	/* Changed font-family to Times New Roman */
+	font-family: 'Times New Roman', Times, serif;
   }
   
   body, html {
@@ -29,7 +30,7 @@
   .chat-container {
 	position: relative;
 	z-index: 10;
-	width: 700px;            /* Increased width */
+	width: 700px;
 	max-width: 95vw;
 	height: 600px;
 	background: rgba(0, 15, 30, 0.85);
@@ -127,6 +128,7 @@
 	font-size: 16px;
 	outline: none;
 	transition: border-color 0.3s;
+	font-family: 'Times New Roman', Times, serif;
   }
   
   #user-input:focus {
@@ -143,17 +145,10 @@
 	font-size: 16px;
 	cursor: pointer;
 	transition: background-color 0.3s;
+	font-family: 'Times New Roman', Times, serif;
   }
   
   button:hover {
 	background: #357ABD;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-	.chat-container {
-	  width: 95vw;
-	  height: 80vh;
-	}
   }
   
